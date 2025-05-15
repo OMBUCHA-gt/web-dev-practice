@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML CLASS</title>
+</head>
+<body>
+    <h1>HTML CLASS</h1>
+    <h2>What is HTML in coding?</h2>
+    <!--Adding anImage-->
+    <img src="pexels-pixabay-270404.jpg" alt="HTML Image" width="300" height="200">
+    <p>Welcome to the HTML class!</p>
+    <p>Today we are going to learn about 4 essential areas in creating website with simple HTML</p>
+    <!--Ordered List-->
+    <h3>Topics to be covered</h3>
+    <ol type="i">
+        <li>Headings</li>
+        <li>Images</li>
+        <li>Tables</li>
+        <li>Forms</li>
+        <li>List</li>
+    </ol>
+    <p>Several students have already registered for the class as below table</p>
+    <!--Table-->
+<table border="1" cellpadding="5" cellspacing="0">
+    <caption>Student Registration</caption>
+    <thead>
+        <tr>
+            <th>Student Name</th>
+            <th>Student Address</th>
+            <th>Student Mobile</th>
+            <th>Student Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>John Doe</td>
+            <td>123 Main St, Cityville</td>
+            <td>(123) 456-7890</td>
+            <td>john@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>456 Elm St, Townsville</td>
+            <td>(987) 654-3210</td>
+            <td>janesmith@uk.com</td>
+        </tr>
+        <tr>
+            <td>Sam Brown</td>
+            <td>789 Oak St, Villageville</td>
+            <td>(555) 123-4567</td>
+            <td>brown@yahoo.com</td>
+        </tr>
+        <tr>
+            <td>Lisa White</td>
+            <td>321 Pine St, Hamletville</td>
+            <td>(444) 765-4321</td>
+            <td>lisa@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Tom Green</td>
+            <td>654 Maple St, Boroughville</td>
+            <td>(222) 333-4444</td>
+            <td>tomg23@gmail.com</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="4">Total Students: 5</td>
+        </tr>   
+    </tfoot>
+</table>
+<p>Registration is still ongoing and open. Please fill free to register in the attached form below</p>
+<!--Form-->
+<h2>Registration Form</h2>
+<form>
+    <label for="full_name">Full Name</label>
+    <input type="text" id="full_name" name="full_name" placeholder="Enter your full name" required>
+    <br><br>
+    <label for="gender">Gender</label>
+    <input type="radio" name="gender" value="male">Male
+    <input type="radio" name="gender" value="female">Female
+    <br><br>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    <br><br>
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+    <br><br>
+    <label for="languages">Languages</label>
+        <input type="checkbox" name="languages" value="english">English
+        <input type="checkbox" name="languages" value="swahili">Swahili
+        <input type="checkbox" name="languages" value="french">French
+        <input type="checkbox" name="languages" value="arabic">Arabic
+        <br><br>
+    <label for="country">Country</label>
+    <select id="country" name="country">
+        <option value="select">--Select your country--</option>
+        <option value="india">Kenya</option>
+        <option value="usa">South Africa</option>
+        <option value="uk">Nigeria</option>
+        <option value="canada">Tanzania</option>
+        <option value="australia">South Sudan</option>
+    </select>
+        <br><br>
+        
+    <label for="register">Register</label>
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+        <br><br>
+        
+
+
+</form>
+
+</body>
+</html>
